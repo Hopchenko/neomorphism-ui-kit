@@ -6,18 +6,7 @@ import * as serviceWorker from './serviceWorker'
 import Card from './components/card/card'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-      }}
-    >
-      <Card />
-    </div>
-  </React.StrictMode>,
+  <React.StrictMode>hello world</React.StrictMode>,
   document.getElementById('root')
 )
 

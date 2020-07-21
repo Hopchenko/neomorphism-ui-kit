@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "styleguidist": "npx styleguidist server",
+    "styleguidist-build": "npx styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,15 +36,8 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/preset-scss": "^1.0.2",
-    "@storybook/react": "^5.3.19",
-    "css-loader": "^3.6.0",
     "prettier": "2.0.5",
-    "sass-loader": "^9.0.2",
-    "style-loader": "^1.2.1"
+    "react-styleguidist": "^11.0.8",
+    "sass-loader": "^9.0.2"
   }
 }

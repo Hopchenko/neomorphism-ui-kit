@@ -1,0 +1,31 @@
+@import 'src/index';
+
+.container {
+  width: 282px;
+  box-shadow: $drop_shadow_default_card;
+  background-color: $medium_1;
+  border-radius: 40px;
+  padding: 32px 25px 48px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 25px 0 0;
+    color: $dark_4;
+  }
+
+  .position {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0 0;
+    color: $dark_3;
+  }
+}

@@ -1,0 +1,14 @@
+$inner_shadow_input: inset -5px -5px 30px #ffffff,
+  inset 4px 4px 8px rgba(190, 205, 226, 0.5);
+
+$drop_shadow_default_button: -6px -6px 16px #ffffff, 6px 6px 16px #becde2;
+$drop_shadow_default_card: -6px -6px 16px #ffffff, 6px 6px 16px #becde2;
+$drop_shadow_default_text: -6px -6px 8px rgba(255, 255, 255, 0.25),
+  6px 6px 8px rgba(190, 205, 226, 0.5);
+$drop_shadow_default_button_small: -6px -6px 16px #ffffff,
+  3px 3px 16px rgba(190, 205, 226, 0.5);
+
+$alternative_biggest_shadows: 1.5px 1.5px 2px rgba(190, 205, 226, 0.4),
+  -1px -1px 3px #ffffff;
+$alternative_smallest_shadows: inset 1.5px 1.5px 1px rgba(190, 205, 226, 0.25),
+  inset -1px -1px 1px rgba(255, 255, 255, 0.7);

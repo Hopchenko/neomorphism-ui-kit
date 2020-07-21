@@ -1,0 +1,18 @@
+@import 'src/index';
+
+.container {
+  width: 96px;
+  height: 96px;
+  background-color: $medium_1;
+  box-shadow: $drop_shadow_default_button;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    max-width: calc(100% - 12px);
+    max-height: calc(100% - 12px);
+    border-radius: inherit;
+  }
+}
